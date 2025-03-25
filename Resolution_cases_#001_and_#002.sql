@@ -121,7 +121,8 @@ FROM
 INNER JOIN 
     interviews i ON s.id = i.suspect_id
 WHERE 
-    s.id IN (35, 44, 97);
+    s.id IN (35, 44, 97)
+;
 
 -- Output:
 -- name			transcript
